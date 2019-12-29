@@ -792,7 +792,7 @@ end
 ----------------------------------------------------------------------------
 if text == 'تحديث السورس ™' and SudoBot(msg) then 
 os.execute('rm -rf lxfu9.lua')
-os.execute('wget https://raw.githubusercontent.com/Teamlxfu9/lxfu9/master/lxfu9.lua')
+os.execute('wget https://raw.githubusercontent.com/lxfu9team/shadeo/master/lxfu9.lua')
 send(msg.chat_id_, msg.id_,'♻┋ تم تحديث السورس') 
 dofile('lxfu9.lua')  
 end
